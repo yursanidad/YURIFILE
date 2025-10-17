@@ -39,7 +39,7 @@ namespace YURIFILE
                 "Age: " + txtAge.Text
             };
 
-            string relativePath = @"..\..\FileStorage";
+            string relativePath = @"..\..\FILE_LAB";
             string docPath = Path.GetFullPath(relativePath);
             using (StreamWriter outputFile = new StreamWriter(Path.Combine(docPath, studentNumber + ".txt")))
             {

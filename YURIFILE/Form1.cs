@@ -23,7 +23,7 @@ namespace YURIFILE
             FrmFileName FileNameForm = new FrmFileName();
             string getInput = txtInput.Text;
             FileNameForm.ShowDialog();
-            string relativePath = @"..\..\FileStorage";
+            string relativePath = @"..\..\FILE_LAB";
             string docPath = Path.GetFullPath(relativePath);
 
             using (StreamWriter outputFile = new StreamWriter(Path.Combine(docPath, FrmFileName.SetFileName)))

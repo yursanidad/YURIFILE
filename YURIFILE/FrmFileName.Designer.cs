@@ -64,15 +64,16 @@
             this.label1.TabIndex = 6;
             this.label1.Text = "Enter File Name";
             // 
-            // FrmFIleName
+            // FrmFileName
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(488, 379);
             this.Controls.Add(this.btnOkay);
             this.Controls.Add(this.txtFileName);
             this.Controls.Add(this.label1);
-            this.Name = "FrmFIleName";
+            this.Name = "FrmFileName";
             this.Text = "FrmFIleName";
             this.ResumeLayout(false);
             this.PerformLayout();

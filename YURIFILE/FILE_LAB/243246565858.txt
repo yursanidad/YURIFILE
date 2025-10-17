@@ -1,0 +1,9 @@
+Student Number: 243246565858
+Last Name: SANIDAD
+First Name: YURI
+Middle Name: S
+Gender: MALE
+Birthday: 18 Oct 2025
+Program: BSIT
+Contact No: 09756746576
+Age: 23
